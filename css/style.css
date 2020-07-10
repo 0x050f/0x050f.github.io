@@ -1,0 +1,129 @@
+@import "../fonts/PositiveSystem/style.css";
+@import "../fonts/Fira_Code/fira_code.css";
+
+body
+{
+	background-color: #1b1d23;
+	color: white;
+	font-family: 'Fira Code';
+}
+
+#informations
+{
+	padding: 0 1em;
+}
+
+#informations>*:not(.input)
+{
+	display: inline-block;
+	color: white;
+	text-decoration: none;
+}
+
+#curriculum
+{
+	padding: 0 1em 3em 1em;
+}
+
+#curriculum ul
+{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+#curriculum li>*
+{
+	display: inline-block;
+}
+
+#social
+{
+	user-select: none;
+	text-align: center;
+	position: fixed;
+	bottom: 5px;
+	width: 100%;
+}
+
+#social>*
+{
+	margin: 10px;
+	display: inline-block;
+}
+
+#social a
+{
+	color: white;
+}
+
+#social i
+{
+	font-size: 30px;
+}
+
+.logo
+{
+	width: 15px;
+}
+
+.input>*
+{
+	display: inline-block;
+}
+
+.input>h3
+{
+	margin: 1em 0 0 0;
+}
+
+.path,.dir
+{
+	color: #50cacd;
+}
+
+.exec
+{
+	color: #efa6a2;
+}
+
+.start_input
+{
+	color: #80c990;
+}
+
+#header
+{
+	text-align: center;
+	height: 50vh;	
+}
+
+#header #lock_screen
+{
+	user-select: none;
+	margin-top: 50vh;
+	transform: translateY(-50%);
+}
+
+#header img
+{
+	border: 2px;
+	border-radius: 50%;	
+	border-color: white;
+	border-style: solid;
+	height: 100px;
+}
+
+#header h2
+{
+	padding: 0;
+	margin: 0.5em 0;
+}
+
+#header #login
+{
+	padding: 0;
+	border-radius: 50%;
+	height: 35px;
+	width: 35px;
+}
