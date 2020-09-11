@@ -6,6 +6,9 @@ body
 	background-color: #1b1d23;
 	color: white;
 	font-family: 'Fira Code';
+	overflow: hidden;
+	padding: 0;
+	margin: 0;
 }
 
 #informations
@@ -13,9 +16,8 @@ body
 	padding: 0 1em;
 }
 
-#informations>*:not(.input)
+#informations .output
 {
-	display: inline-block;
 	color: white;
 	text-decoration: none;
 }
@@ -67,6 +69,11 @@ body
 	width: 15px;
 }
 
+.input
+{
+	display: none;
+}
+
 .input>*
 {
 	display: inline-block;
@@ -75,6 +82,16 @@ body
 .input>h3
 {
 	margin: 1em 0 0 0;
+}
+
+.output
+{
+	display: none;
+}
+
+.output>*
+{
+	display: inline-block;
 }
 
 .path,.dir
@@ -95,14 +112,14 @@ body
 #header
 {
 	text-align: center;
-	height: 50vh;	
+	top: 0;
+	height: 100vh;	
 }
 
 #header #lock_screen
 {
 	user-select: none;
-	margin-top: 50vh;
-	transform: translateY(-50%);
+	padding-top: 25vh;
 }
 
 #header img
@@ -126,4 +143,9 @@ body
 	border-radius: 50%;
 	height: 35px;
 	width: 35px;
+}
+
+#page
+{
+	height: 100vh;
 }
