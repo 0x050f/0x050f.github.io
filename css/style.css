@@ -1,14 +1,19 @@
 @import "../fonts/PositiveSystem/style.css";
 @import "../fonts/Fira_Code/fira_code.css";
 
+html
+{
+	color: white;
+	font-family: 'Fira Code';
+}
+
 body
 {
 	background-color: #1b1d23;
-	color: white;
-	font-family: 'Fira Code';
-	overflow: hidden;
 	padding: 0;
 	margin: 0;
+	overflow: hidden;
+	font-size: 2vh;
 }
 
 #informations
@@ -39,13 +44,14 @@ body
 	display: inline-block;
 }
 
-#social
+#footer
 {
 	user-select: none;
 	text-align: center;
 	position: fixed;
-	bottom: 5px;
 	width: 100%;
+	bottom: 0;
+	font-size: 1vh;
 }
 
 #social>*
@@ -61,7 +67,7 @@ body
 
 #social i
 {
-	font-size: 30px;
+	font-size: 4vh;
 }
 
 .logo
@@ -81,7 +87,13 @@ body
 
 .input>h3
 {
-	margin: 1em 0 0 0;
+	margin: 0 0 0 0.5em;
+	font-size: 2vh;
+}
+
+.output:not(.output:empty)
+{
+	margin: 0 0 1em 0;
 }
 
 .output
@@ -139,10 +151,12 @@ body
 
 #header #login
 {
+	background-color: #22181c;
+	border-width: 1px;
+	border-color: gray;
 	padding: 0;
-	border-radius: 50%;
 	height: 35px;
-	width: 35px;
+	width: 100px;
 }
 
 #page
