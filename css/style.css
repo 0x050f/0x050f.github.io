@@ -56,7 +56,7 @@ body
 
 #social>*
 {
-	margin: 10px;
+	margin: 1vh;
 	display: inline-block;
 }
 
@@ -68,11 +68,6 @@ body
 #social i
 {
 	font-size: 4vh;
-}
-
-.logo
-{
-	width: 15px;
 }
 
 .input
@@ -136,11 +131,11 @@ body
 
 #header img
 {
-	border: 2px;
+	border: 0.5vh;
 	border-radius: 50%;	
 	border-color: white;
 	border-style: solid;
-	height: 100px;
+	height: 30vh;
 }
 
 #header h2
@@ -152,14 +147,25 @@ body
 #header #login
 {
 	background-color: #22181c;
-	border-width: 1px;
+	border-width: 0.1vh;
 	border-color: gray;
 	padding: 0;
-	height: 35px;
-	width: 100px;
+	font-size: 2vh;
+	height: 5vh;
+	width: 10vh;
 }
 
 #page
 {
 	height: 100vh;
+	margin: 0;
+	padding: 0;
+}
+
+#page img
+{
+	font-size: 4vh;
+	height: 2vh;
+	margin: 0;
+	padding: 0;
 }
