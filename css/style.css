@@ -126,7 +126,7 @@ body
 #header #lock_screen
 {
 	user-select: none;
-	padding-top: 25vh;
+	padding-top: 20vh;
 }
 
 #header img
@@ -138,10 +138,28 @@ body
 	height: 30vh;
 }
 
+#header h1
+{
+	padding: 0;
+	margin: 0.5em 0 0.2em;
+}
+
 #header h2
 {
 	padding: 0;
 	margin: 0.5em 0;
+}
+
+#header h3
+{
+	padding: 0;
+	margin: 0 0 1em;
+}
+
+#header h4
+{
+	padding: 0;
+	margin: 0.5em;
 }
 
 #header #login
