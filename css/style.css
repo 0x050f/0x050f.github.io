@@ -168,9 +168,10 @@ body
 	border-width: 0.1vh;
 	border-color: gray;
 	padding: 0;
-	font-size: 2vh;
+	font-size: 1.6vh;
 	height: 5vh;
 	width: 10vh;
+	font-family: 'Fira Code';
 }
 
 #page
